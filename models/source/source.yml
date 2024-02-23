@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: green_tripdata
+    description: data for green taxi from 2022/01
+    database: dbt-training-414811
+    schema: ny_taxi
+    tables:
+      - name: green_taxi_202201
+
+
+  - name: yellow_tripdata
+    database: dbt-training-414811
+    schema: ny_taxi
+    tables:
+      - name: yellow_taxi_202202
